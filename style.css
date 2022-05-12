@@ -1,0 +1,36 @@
+body{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a");
+    background-size: cover;
+}
+#show_sketch{
+    float: right;
+}
+h1{
+    font-family: fantasy;
+    color: darkorchid;
+    background-color: #e8c7ff;
+    text-shadow: 2px;
+}
+
+p{
+    font-size: 30px;
+    font-family: fantasy;
+    color: darkblue;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 30px;
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 5px 5px 40px darkblue;
+    }
+    to{
+        box-shadow: 5px 5px 40px cyan;
+    }
+}
